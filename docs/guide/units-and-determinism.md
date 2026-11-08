@@ -1,6 +1,6 @@
 # Units, scope, features and determinism
 
-Moved from the README on 2026-10-31, unchanged, when the README was brought to the [org documentation guide](https://github.com/bevy-coven/.github/blob/main/DOCUMENTATION.md).
+Moved from the README on 2026-10-31, unchanged, when the README was brought to the [org documentation guide](https://github.com/dark-incorporated/.github/blob/main/DOCUMENTATION.md).
 
 `Vec2` is **the host's ground plane**, in the host's units: the crate never converts and never assumes a metric. `time_horizon` and `dt` must be in the same unit as your `vel` and `max_speed` — seconds and metres per second, or game-days and units per day, but not one of each. `neighbour_range`, `pos` and `radius` are in that same length unit. Left and right are the plane's own: a positive `CrowdParams::nudge` kicks clockwise in `(x, y)`, which is the walker's right when `+y` is up. A world whose ground plane is `(x, z)` may see that as its left, which is why the sign is yours to flip.
 

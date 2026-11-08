@@ -1,6 +1,6 @@
 # The examples, and two things circle_swap teaches
 
-Moved from the README on 2026-10-31, unchanged, when the README was brought to the [org documentation guide](https://github.com/bevy-coven/.github/blob/main/DOCUMENTATION.md).
+Moved from the README on 2026-10-31, unchanged, when the README was brought to the [org documentation guide](https://github.com/dark-incorporated/.github/blob/main/DOCUMENTATION.md).
 
 ```sh
 cargo run -p bevy_orca --example head_on        # terminal: reciprocity, each side takes half; or by right of way

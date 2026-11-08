@@ -4,7 +4,7 @@ ORCA local collision avoidance: the 2-D linear program over discs, on `bevy_math
 
 ## Source of truth
 
-This repository, [`bevy-coven/bevy_orca`](https://github.com/bevy-coven/bevy_orca), is canonical since 2026-10-23: it moved to Bevy 0.20 while `foundation_vs_slop/crates/bevy_orca` stays frozen on 0.19. Do not mirror over it with `scripts/mirror_crates.sh`. MIT OR Apache-2.0.
+This repository, [`dark-incorporated/bevy_orca`](https://github.com/dark-incorporated/bevy_orca), is canonical since 2026-10-23: it moved to Bevy 0.20 while `foundation_vs_slop/crates/bevy_orca` stays frozen on 0.19. Do not mirror over it with `scripts/mirror_crates.sh`. MIT OR Apache-2.0.
 
 ## Build and test
 
@@ -38,4 +38,4 @@ cargo test --all-features    # the optional derives, and the same tests
 
 The game reaches this as `crate::orca` in its monorepo, `foundation_vs_slop/crates/bevy_orca/`, which is frozen on Bevy 0.19. This repository is where changes land; the monorepo copy is not updated. Do not push over this repository from the monorepo's `scripts/mirror_crates.sh`.
 
-README and docs follow https://github.com/bevy-coven/.github/blob/main/DOCUMENTATION.md; a feature is not done until its README line and, if visible, its GIF exist.
+README and docs follow https://github.com/dark-incorporated/.github/blob/main/DOCUMENTATION.md; a feature is not done until its README line and, if visible, its GIF exist.

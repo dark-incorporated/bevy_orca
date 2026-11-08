@@ -1,6 +1,6 @@
 # Static obstacles
 
-Moved from the README on 2026-10-31, unchanged, when the README was brought to the [org documentation guide](https://github.com/bevy-coven/.github/blob/main/DOCUMENTATION.md).
+Moved from the README on 2026-10-31, unchanged, when the README was brought to the [org documentation guide](https://github.com/dark-incorporated/.github/blob/main/DOCUMENTATION.md).
 
 `walls` is for what changes from step to step. Geometry that does not — buildings, a wall with a doorway, the edge of the map — is an `Obstacles`, built once and handed to `Crowd::solve_around`:
 
